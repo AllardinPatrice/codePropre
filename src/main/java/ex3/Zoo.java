@@ -61,6 +61,14 @@ public class Zoo {
 	}
 
 	/**
+	 * Comptage des animaux
+	 */
+	public int compterAnimaux() {
+		return savaneAfricaine.compterAnimaux() + zoneCarnivore.compterAnimaux() + fermeReptile.compterAnimaux()
+				+ aquarium.compterAnimaux();
+	}
+
+	/**
 	 * Getter for nom
 	 * 
 	 * @return the nom

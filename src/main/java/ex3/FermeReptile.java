@@ -18,15 +18,6 @@ public class FermeReptile extends ZoneZoo {
 	}
 
 	/**
-	 * Comptage des animaux
-	 * 
-	 * @return nombre d'animaux de la ferme de reptiles
-	 */
-	public int compterAnimaux() {
-		return animaux.size();
-	}
-
-	/**
 	 * Calcul de nourriture pour la ferme de reptiles
 	 */
 	public double calculerKgsNourritureParJour() {

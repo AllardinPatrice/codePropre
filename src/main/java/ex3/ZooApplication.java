@@ -24,6 +24,9 @@ public class ZooApplication {
 
 		// Affichage de la liste
 		zoo.afficherListeAnimaux();
+
+		// Commptage des animaux
+		System.out.println("Compter les animaux : " + zoo.compterAnimaux());
 	}
 
 }

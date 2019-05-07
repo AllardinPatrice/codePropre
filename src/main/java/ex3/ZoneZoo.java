@@ -37,6 +37,15 @@ public abstract class ZoneZoo {
 	}
 
 	/**
+	 * Comptage des animaux
+	 * 
+	 * @return nombre d'animaux
+	 */
+	public int compterAnimaux() {
+		return animaux.size();
+	}
+
+	/**
 	 * Affichage de la liste des animaux
 	 */
 	public void afficherListeAnimaux() {

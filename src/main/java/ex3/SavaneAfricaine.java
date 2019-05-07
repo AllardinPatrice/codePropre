@@ -18,15 +18,6 @@ public class SavaneAfricaine extends ZoneZoo {
 	}
 
 	/**
-	 * Comptage des animaux de la savane
-	 * 
-	 * @return nombre d'animaux de la savane
-	 */
-	public int compterAnimaux() {
-		return this.animaux.size();
-	}
-
-	/**
 	 * Calcul de nourriture pour la savane africaine
 	 */
 	public double calculerKgsNourritureParJour() {

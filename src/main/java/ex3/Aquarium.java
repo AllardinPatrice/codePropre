@@ -1,26 +1,26 @@
 package ex3;
 
-import java.util.List;
+/**
+ * Classe aquarium du zoo
+ * 
+ * @author Patrice
+ *
+ */
+public class Aquarium extends ZoneZoo {
 
-public class Aquarium {
+	/**
+	 * Constructeur
+	 * 
+	 * @param animaux
+	 */
+	public Aquarium() {
+		super();
+	}
 
-	private List<String> types;
-	private List<String> noms;
-	private List<String> comportements;
-	
-	public void addAnimal(String typeAnimal, String nomAnimal, String comportement) {
-		types.add(typeAnimal);
-		noms.add(nomAnimal);
-		comportements.add(comportement);
-	}
-	
-	public void afficherListeAnimaux(){
-		for (String nom: noms){
-			System.out.println(nom);
-		}
-	}
-	
-	public double calculerKgsNourritureParJour(){
-		return noms.size() * 0.2;
+	/**
+	 * Calcul de nourriture pour l'aquarium
+	 */
+	public double calculerKgsNourritureParJour() {
+		return this.animaux.size() * 0.2;
 	}
 }

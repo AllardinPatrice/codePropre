@@ -52,7 +52,8 @@ public abstract class ZoneZoo {
 		// Pour chaque animal
 		for (Animal animal : animaux) {
 			// Affichage du nom
-			System.out.println(animal.getNomAnimal());
+			System.out.println("Animal : " + animal.getNomAnimal() + " Type : " + animal.getTypeAnimal()
+					+ " Comportement : " + animal.getComportement());
 		}
 	}
 
